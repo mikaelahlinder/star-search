@@ -15,7 +15,6 @@ const request = require('request-promise-native').defaults({
 })
 
 module.exports = async ({ from, to, date: outDate, adt = 1 }) => {
-  return require('./data')
   return await request
     .get('/', {
       qs: {
@@ -25,9 +24,5 @@ module.exports = async ({ from, to, date: outDate, adt = 1 }) => {
         adt
       }
     })
-    .then(({ outboundFlights = {} }) => {
-      const flights = Object.values(outboundFlights)
-      if (process.env.ENV === 'dev') fs.writeFileSync('data.json', JSON.stringify(flights))
-      return flights
-    })
+    .then(({ outboundFlights = {} }) => Object.values(outboundFlights))
 }

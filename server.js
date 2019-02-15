@@ -1,9 +1,19 @@
 require('dotenv').config()
 const express = require('express')
 const graphql = require('express-graphql')
-const resolver = require('./api')
-const schema = require('./schema')(resolver)
+const schema = require('./schema')
+const api = require('./api')
+const data = require('./data')
 
 const app = express()
-app.use('/graphql', graphql({ schema: schema, graphiql: true }))
+app.use(
+  '/graphql',
+  graphql({
+    schema: schema,
+    graphiql: process.env.ENV === 'dev',
+    context: {
+      resolver: process.env.ENV === 'dev' ? () => data : api
+    }
+  })
+)
 app.listen(process.env.PORT || 3000)

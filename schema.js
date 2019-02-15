@@ -102,31 +102,30 @@ const flight = new GraphQLObjectType({
     cabins: {
       type: GraphQLList(cabin),
       resolve: ({ cabins }) => {
-        const cabs = []
-        if (cabins.ECONOMY) cabs.push(Object.values(cabins.ECONOMY.ECONOMY.products)[0])
-        if (cabins.BUSINESS) cabs.push(Object.values(cabins.BUSINESS.BUSINESS.products)[0])
-        return cabs
+        const result = []
+        if (cabins.ECONOMY) result.push(Object.values(cabins.ECONOMY.ECONOMY.products)[0])
+        if (cabins.BUSINESS) result.push(Object.values(cabins.BUSINESS.BUSINESS.products)[0])
+        return result
       }
     }
   }
 })
 
-module.exports = resolver =>
-  new GraphQLSchema({
-    query: new GraphQLObjectType({
-      name: 'Query',
-      fields: {
-        flights: {
-          type: GraphQLList(flight),
-          args: {
-            from: { type: GraphQLString },
-            to: { type: GraphQLString },
-            date: { type: GraphQLString },
-            adt: { type: GraphQLInt, defaultValue: 1 },
-            stops: { type: GraphQLInt, defaultValue: undefined }
-          },
-          resolve: async (context, args) => await resolver(args)
-        }
+module.exports = new GraphQLSchema({
+  query: new GraphQLObjectType({
+    name: 'Query',
+    fields: {
+      flights: {
+        type: GraphQLList(flight),
+        args: {
+          from: { type: GraphQLString },
+          to: { type: GraphQLString },
+          date: { type: GraphQLString },
+          adt: { type: GraphQLInt, defaultValue: 1 },
+          stops: { type: GraphQLInt, defaultValue: undefined }
+        },
+        resolve: async (config, args, context) => await context.resolver(args)
       }
-    })
+    }
   })
+})
