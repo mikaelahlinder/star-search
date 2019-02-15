@@ -1,29 +1,22 @@
 {
-  flights(from: "ARN", to: "AKL", outDate: "20190808") {
-    outboundFlights {
-      startTimeInLocal
-      endTimeInLocal
-      stops
-      originCity {
-        name
-        code
-      }
-      origin {
-        name
-        code
-      }
-      destination {
-        name
-      }
-      via {
-        name
-      }
-      connectionDuration
+  flights(from: "ARN", to: "AKL", date: "20190808", adt: 2) {
+    startTimeInLocal
+    endTimeInLocal
+    stops
+    originCity {
+      name
+      code
     }
-    inboundFlights {
-      origin {
-        name
-      }
+    origin {
+      name
+      code
     }
+    destination {
+      name
+    }
+    via {
+      name
+    }
+    connectionDuration
   }
 }
