@@ -1,11 +1,17 @@
 {
   "name": "star-search",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "server.js",
   "repository": "git@github.com:mikaelahlinder/star-search.git",
   "author": "Mikael Ahlinder <mikael.ahlinder@aptitud.se>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
   },
