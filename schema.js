@@ -1,4 +1,12 @@
-const { GraphQLSchema, GraphQLObjectType, GraphQLBoolean, GraphQLString, GraphQLList, GraphQLInt } = require('graphql')
+const {
+  GraphQLSchema,
+  GraphQLObjectType,
+  GraphQLBoolean,
+  GraphQLString,
+  GraphQLList,
+  GraphQLInt,
+  GraphQLNonNull
+} = require('graphql')
 
 const carrier = new GraphQLObjectType({
   name: 'Carrier',
@@ -118,11 +126,10 @@ module.exports = new GraphQLSchema({
       flights: {
         type: GraphQLList(flight),
         args: {
-          from: { type: GraphQLString },
-          to: { type: GraphQLString },
-          date: { type: GraphQLString },
-          adt: { type: GraphQLInt, defaultValue: 1 },
-          stops: { type: GraphQLInt, defaultValue: undefined }
+          from: { type: GraphQLNonNull(GraphQLString) },
+          to: { type: GraphQLNonNull(GraphQLString) },
+          date: { type: GraphQLNonNull(GraphQLString) },
+          pax: { type: GraphQLInt, defaultValue: 1 }
         },
         resolve: async (config, args, context) => await context.resolver(args)
       }

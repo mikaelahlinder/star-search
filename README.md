@@ -1,3 +1,3 @@
 # star-search
 
-start alliance award search with _graphql_
+start alliance award search

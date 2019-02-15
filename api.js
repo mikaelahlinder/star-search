@@ -13,7 +13,7 @@ const request = require('request-promise-native').defaults({
   }
 })
 
-module.exports = async ({ from, to, date: outDate, adt = 1 }) => {
+module.exports = async ({ from, to, date: outDate, pax: adt }) => {
   return await request
     .get('/', {
       qs: {
