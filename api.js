@@ -1,4 +1,3 @@
-const fs = require('fs')
 const request = require('request-promise-native').defaults({
   json: true,
   baseUrl: 'https://api.flysas.com/offers/flights',

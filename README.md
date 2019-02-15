@@ -1,2 +1,3 @@
 # star-search
-*A
+
+start alliance award search with grapql
