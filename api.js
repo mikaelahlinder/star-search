@@ -1,3 +1,4 @@
+const fs = require('fs')
 const request = require('request-promise-native').defaults({
   json: true,
   baseUrl: 'https://api.flysas.com/offers/flights',
@@ -14,8 +15,7 @@ const request = require('request-promise-native').defaults({
 })
 
 module.exports = async (from, to, outDate, adt = 1) => {
-  // const json = require('./data')
-  // return Object.values(json.outboundFlights || {})
+  return require('./data')
   return await request
     .get('/', {
       qs: {
@@ -25,5 +25,9 @@ module.exports = async (from, to, outDate, adt = 1) => {
         adt
       }
     })
-    .then(json => Object.values(json.outboundFlights || {}))
+    .then(({ outboundFlights = {} }) => {
+      const flights = Object.values(outboundFlights)
+      if (process.env.ENV === 'dev') fs.writeFileSync('data.json', JSON.stringify(flights))
+      return flights
+    })
 }
