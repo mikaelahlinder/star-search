@@ -1,0 +1,1250 @@
+{
+  "outboundFlights": {
+    "F0": {
+      "id": 0,
+      "origin": { "code": "ARN", "name": "Arlanda" },
+      "destination": { "code": "AKL", "name": "Auckland" },
+      "originCity": { "code": "STO", "name": "Stockholm" },
+      "destinationCity": { "code": "AKL", "name": "Auckland" },
+      "connectionDuration": "27:44:00",
+      "startTimeInLocal": "2019-08-08T10:15:00.000+02:00",
+      "startTimeInGmt": "2019-08-08T08:15:00.000Z",
+      "endTimeInLocal": "2019-08-09T23:59:00.000+12:00",
+      "endTimeInGmt": "2019-08-09T11:59:00.000Z",
+      "stops": 2,
+      "via": [
+        { "code": "SIN", "name": "Singapore Changi", "haltDuration": "01:00:00" },
+        { "code": "BNE", "name": "Brisbane", "haltDuration": "01:55:00" }
+      ],
+      "segments": [
+        {
+          "id": 11,
+          "arrivalTerminal": "0",
+          "arrivalDateTimeInLocal": "2019-08-09T06:20:00.000+08:00",
+          "arrivalDateTimeInGmt": "2019-08-08T22:20:00.000Z",
+          "departureTerminal": "5",
+          "departureDateTimeInLocal": "2019-08-08T10:15:00.000+02:00",
+          "departureDateTimeInGmt": "2019-08-08T08:15:00.000Z",
+          "departureAirport": { "code": "ARN", "name": "Arlanda" },
+          "arrivalAirport": { "code": "SIN", "name": "Singapore Changi" },
+          "departureCity": { "code": "STO", "name": "Stockholm" },
+          "arrivalCity": { "code": "SIN", "name": "Singapore" },
+          "airCraft": { "code": "359", "name": "Airbus A350-900" },
+          "flightNumber": "361",
+          "duration": "14:05:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 1
+        },
+        {
+          "id": 12,
+          "arrivalTerminal": "I",
+          "arrivalDateTimeInLocal": "2019-08-09T16:55:00.000+10:00",
+          "arrivalDateTimeInGmt": "2019-08-09T06:55:00.000Z",
+          "departureTerminal": "3",
+          "departureDateTimeInLocal": "2019-08-09T07:20:00.000+08:00",
+          "departureDateTimeInGmt": "2019-08-08T23:20:00.000Z",
+          "departureAirport": { "code": "SIN", "name": "Singapore Changi", "haltDuration": "01:00:00" },
+          "arrivalAirport": { "code": "BNE", "name": "Brisbane" },
+          "departureCity": { "code": "SIN", "name": "Singapore" },
+          "arrivalCity": { "code": "BNE", "name": "Brisbane" },
+          "airCraft": { "code": "772", "name": "Boeing 777-200" },
+          "flightNumber": "265",
+          "duration": "07:35:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 13,
+          "arrivalTerminal": "I",
+          "arrivalDateTimeInLocal": "2019-08-09T23:59:00.000+12:00",
+          "arrivalDateTimeInGmt": "2019-08-09T11:59:00.000Z",
+          "departureTerminal": "I",
+          "departureDateTimeInLocal": "2019-08-09T18:50:00.000+10:00",
+          "departureDateTimeInGmt": "2019-08-09T08:50:00.000Z",
+          "departureAirport": { "code": "BNE", "name": "Brisbane", "haltDuration": "01:55:00" },
+          "arrivalAirport": { "code": "AKL", "name": "Auckland" },
+          "departureCity": { "code": "BNE", "name": "Brisbane" },
+          "arrivalCity": { "code": "AKL", "name": "Auckland" },
+          "airCraft": { "code": "32Q" },
+          "flightNumber": "734",
+          "duration": "03:09:00",
+          "marketingCarrier": { "code": "NZ", "name": "AIR NEW ZEALAND" },
+          "operatingCarrier": { "code": "NZ", "name": "AIR NEW ZEALAND" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        }
+      ],
+      "cabins": {
+        "ECONOMY": {
+          "ECONOMY": {
+            "products": {
+              "O_1": {
+                "productName": "ECONOMY",
+                "productCode": "ECONOMY",
+                "lowestFare": true,
+                "recommendations": [1],
+                "price": {
+                  "currency": "SEK",
+                  "basePrice": 0,
+                  "totalTax": 0,
+                  "totalPrice": 0,
+                  "points": 72000,
+                  "credits": 0,
+                  "pricePerPassengerType": [
+                    {
+                      "id": 1,
+                      "type": "ADT",
+                      "numberCount": 1,
+                      "price": {
+                        "currency": "SEK",
+                        "basePrice": 0,
+                        "totalTax": 0,
+                        "totalPrice": 0,
+                        "points": 72000,
+                        "credits": 0
+                      }
+                    }
+                  ]
+                },
+                "fares": [
+                  { "segmentId": "11", "bookingClass": "X", "avlSeats": 2, "cabinName": "ECONOMY" },
+                  { "segmentId": "12", "bookingClass": "X", "avlSeats": 2, "cabinName": "ECONOMY" },
+                  { "segmentId": "13", "bookingClass": "X", "avlSeats": 1, "cabinName": "ECONOMY" }
+                ],
+                "fareKey": "XXX",
+                "sasRecommended": false
+              }
+            }
+          }
+        }
+      },
+      "lowestFares": { "ECONOMY": { "product": "ECONOMY", "productId": "O_1", "avlSeats": 1, "points": 72000 } }
+    },
+    "F1": {
+      "id": 1,
+      "origin": { "code": "ARN", "name": "Arlanda" },
+      "destination": { "code": "AKL", "name": "Auckland" },
+      "originCity": { "code": "STO", "name": "Stockholm" },
+      "destinationCity": { "code": "AKL", "name": "Auckland" },
+      "connectionDuration": "27:55:00",
+      "startTimeInLocal": "2019-08-08T10:15:00.000+02:00",
+      "startTimeInGmt": "2019-08-08T08:15:00.000Z",
+      "endTimeInLocal": "2019-08-10T00:10:00.000+12:00",
+      "endTimeInGmt": "2019-08-09T12:10:00.000Z",
+      "stops": 2,
+      "via": [
+        { "code": "SIN", "name": "Singapore Changi", "haltDuration": "01:25:00" },
+        { "code": "MEL", "name": "Melbourne", "haltDuration": "01:25:00" }
+      ],
+      "segments": [
+        {
+          "id": 11,
+          "arrivalTerminal": "0",
+          "arrivalDateTimeInLocal": "2019-08-09T06:20:00.000+08:00",
+          "arrivalDateTimeInGmt": "2019-08-08T22:20:00.000Z",
+          "departureTerminal": "5",
+          "departureDateTimeInLocal": "2019-08-08T10:15:00.000+02:00",
+          "departureDateTimeInGmt": "2019-08-08T08:15:00.000Z",
+          "departureAirport": { "code": "ARN", "name": "Arlanda" },
+          "arrivalAirport": { "code": "SIN", "name": "Singapore Changi" },
+          "departureCity": { "code": "STO", "name": "Stockholm" },
+          "arrivalCity": { "code": "SIN", "name": "Singapore" },
+          "airCraft": { "code": "359", "name": "Airbus A350-900" },
+          "flightNumber": "361",
+          "duration": "14:05:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 1
+        },
+        {
+          "id": 12,
+          "arrivalTerminal": "2",
+          "arrivalDateTimeInLocal": "2019-08-09T17:10:00.000+10:00",
+          "arrivalDateTimeInGmt": "2019-08-09T07:10:00.000Z",
+          "departureTerminal": "3",
+          "departureDateTimeInLocal": "2019-08-09T07:45:00.000+08:00",
+          "departureDateTimeInGmt": "2019-08-08T23:45:00.000Z",
+          "departureAirport": { "code": "SIN", "name": "Singapore Changi", "haltDuration": "01:25:00" },
+          "arrivalAirport": { "code": "MEL", "name": "Melbourne" },
+          "departureCity": { "code": "SIN", "name": "Singapore" },
+          "arrivalCity": { "code": "MEL", "name": "Melbourne" },
+          "airCraft": { "code": "359", "name": "Airbus A350-900" },
+          "flightNumber": "207",
+          "duration": "07:25:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 13,
+          "arrivalTerminal": "I",
+          "arrivalDateTimeInLocal": "2019-08-10T00:10:00.000+12:00",
+          "arrivalDateTimeInGmt": "2019-08-09T12:10:00.000Z",
+          "departureTerminal": "2",
+          "departureDateTimeInLocal": "2019-08-09T18:35:00.000+10:00",
+          "departureDateTimeInGmt": "2019-08-09T08:35:00.000Z",
+          "departureAirport": { "code": "MEL", "name": "Melbourne", "haltDuration": "01:25:00" },
+          "arrivalAirport": { "code": "AKL", "name": "Auckland" },
+          "departureCity": { "code": "MEL", "name": "Melbourne" },
+          "arrivalCity": { "code": "AKL", "name": "Auckland" },
+          "airCraft": { "code": "77W", "name": "Boeing 777-300ER" },
+          "flightNumber": "126",
+          "duration": "03:35:00",
+          "marketingCarrier": { "code": "NZ", "name": "AIR NEW ZEALAND" },
+          "operatingCarrier": { "code": "NZ", "name": "AIR NEW ZEALAND" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        }
+      ],
+      "cabins": {
+        "BUSINESS": {
+          "BUSINESS": {
+            "products": {
+              "O_7": {
+                "productName": "BUSINESS",
+                "productCode": "BUSINESS",
+                "lowestFare": true,
+                "recommendations": [7],
+                "price": {
+                  "currency": "SEK",
+                  "basePrice": 0,
+                  "totalTax": 0,
+                  "totalPrice": 0,
+                  "points": 129000,
+                  "credits": 0,
+                  "pricePerPassengerType": [
+                    {
+                      "id": 1,
+                      "type": "ADT",
+                      "numberCount": 1,
+                      "price": {
+                        "currency": "SEK",
+                        "basePrice": 0,
+                        "totalTax": 0,
+                        "totalPrice": 0,
+                        "points": 129000,
+                        "credits": 0
+                      }
+                    }
+                  ]
+                },
+                "fares": [
+                  { "segmentId": "11", "bookingClass": "I", "avlSeats": 3, "cabinName": "BUSINESS" },
+                  { "segmentId": "12", "bookingClass": "I", "avlSeats": 3, "cabinName": "BUSINESS" },
+                  { "segmentId": "13", "bookingClass": "I", "avlSeats": 2, "cabinName": "BUSINESS" }
+                ],
+                "fareKey": "III",
+                "sasRecommended": false
+              }
+            }
+          }
+        }
+      },
+      "lowestFares": { "BUSINESS": { "product": "BUSINESS", "productId": "O_7", "avlSeats": 2, "points": 129000 } }
+    },
+    "F2": {
+      "id": 2,
+      "origin": { "code": "ARN", "name": "Arlanda" },
+      "destination": { "code": "AKL", "name": "Auckland" },
+      "originCity": { "code": "STO", "name": "Stockholm" },
+      "destinationCity": { "code": "AKL", "name": "Auckland" },
+      "connectionDuration": "28:00:00",
+      "startTimeInLocal": "2019-08-08T10:15:00.000+02:00",
+      "startTimeInGmt": "2019-08-08T08:15:00.000Z",
+      "endTimeInLocal": "2019-08-10T00:15:00.000+12:00",
+      "endTimeInGmt": "2019-08-09T12:15:00.000Z",
+      "stops": 2,
+      "via": [
+        { "code": "SIN", "name": "Singapore Changi", "haltDuration": "00:50:00" },
+        { "code": "SYD", "name": "Kingsford Smith", "haltDuration": "02:20:00" }
+      ],
+      "segments": [
+        {
+          "id": 11,
+          "arrivalTerminal": "0",
+          "arrivalDateTimeInLocal": "2019-08-09T06:20:00.000+08:00",
+          "arrivalDateTimeInGmt": "2019-08-08T22:20:00.000Z",
+          "departureTerminal": "5",
+          "departureDateTimeInLocal": "2019-08-08T10:15:00.000+02:00",
+          "departureDateTimeInGmt": "2019-08-08T08:15:00.000Z",
+          "departureAirport": { "code": "ARN", "name": "Arlanda" },
+          "arrivalAirport": { "code": "SIN", "name": "Singapore Changi" },
+          "departureCity": { "code": "STO", "name": "Stockholm" },
+          "arrivalCity": { "code": "SIN", "name": "Singapore" },
+          "airCraft": { "code": "359", "name": "Airbus A350-900" },
+          "flightNumber": "361",
+          "duration": "14:05:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 1
+        },
+        {
+          "id": 12,
+          "arrivalTerminal": "1",
+          "arrivalDateTimeInLocal": "2019-08-09T16:50:00.000+10:00",
+          "arrivalDateTimeInGmt": "2019-08-09T06:50:00.000Z",
+          "departureTerminal": "3",
+          "departureDateTimeInLocal": "2019-08-09T07:10:00.000+08:00",
+          "departureDateTimeInGmt": "2019-08-08T23:10:00.000Z",
+          "departureAirport": { "code": "SIN", "name": "Singapore Changi", "haltDuration": "00:50:00" },
+          "arrivalAirport": { "code": "SYD", "name": "Kingsford Smith" },
+          "departureCity": { "code": "SIN", "name": "Singapore" },
+          "arrivalCity": { "code": "SYD", "name": "Sydney" },
+          "airCraft": { "code": "77W", "name": "Boeing 777-300ER" },
+          "flightNumber": "241",
+          "duration": "07:40:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 13,
+          "arrivalTerminal": "I",
+          "arrivalDateTimeInLocal": "2019-08-10T00:15:00.000+12:00",
+          "arrivalDateTimeInGmt": "2019-08-09T12:15:00.000Z",
+          "departureTerminal": "1",
+          "departureDateTimeInLocal": "2019-08-09T19:10:00.000+10:00",
+          "departureDateTimeInGmt": "2019-08-09T09:10:00.000Z",
+          "departureAirport": { "code": "SYD", "name": "Kingsford Smith", "haltDuration": "02:20:00" },
+          "arrivalAirport": { "code": "AKL", "name": "Auckland" },
+          "departureCity": { "code": "SYD", "name": "Sydney" },
+          "arrivalCity": { "code": "AKL", "name": "Auckland" },
+          "airCraft": { "code": "772", "name": "Boeing 777-200" },
+          "flightNumber": "108",
+          "duration": "03:05:00",
+          "marketingCarrier": { "code": "NZ", "name": "AIR NEW ZEALAND" },
+          "operatingCarrier": { "code": "NZ", "name": "AIR NEW ZEALAND" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        }
+      ],
+      "cabins": {
+        "ECONOMY": {
+          "ECONOMY": {
+            "products": {
+              "O_7": {
+                "productName": "ECONOMY",
+                "productCode": "ECONOMY",
+                "lowestFare": true,
+                "recommendations": [7],
+                "price": {
+                  "currency": "SEK",
+                  "basePrice": 0,
+                  "totalTax": 0,
+                  "totalPrice": 0,
+                  "points": 72000,
+                  "credits": 0,
+                  "pricePerPassengerType": [
+                    {
+                      "id": 1,
+                      "type": "ADT",
+                      "numberCount": 1,
+                      "price": {
+                        "currency": "SEK",
+                        "basePrice": 0,
+                        "totalTax": 0,
+                        "totalPrice": 0,
+                        "points": 72000,
+                        "credits": 0
+                      }
+                    }
+                  ]
+                },
+                "fares": [
+                  { "segmentId": "11", "bookingClass": "X", "avlSeats": 1, "cabinName": "ECONOMY" },
+                  { "segmentId": "12", "bookingClass": "X", "avlSeats": 1, "cabinName": "ECONOMY" },
+                  { "segmentId": "13", "bookingClass": "X", "avlSeats": 4, "cabinName": "ECONOMY" }
+                ],
+                "fareKey": "XXX",
+                "sasRecommended": false
+              }
+            }
+          }
+        }
+      },
+      "lowestFares": { "ECONOMY": { "product": "ECONOMY", "productId": "O_7", "avlSeats": 4, "points": 72000 } }
+    },
+    "F3": {
+      "id": 3,
+      "origin": { "code": "ARN", "name": "Arlanda" },
+      "destination": { "code": "AKL", "name": "Auckland" },
+      "originCity": { "code": "STO", "name": "Stockholm" },
+      "destinationCity": { "code": "AKL", "name": "Auckland" },
+      "connectionDuration": "28:20:00",
+      "startTimeInLocal": "2019-08-08T09:55:00.000+02:00",
+      "startTimeInGmt": "2019-08-08T07:55:00.000Z",
+      "endTimeInLocal": "2019-08-10T00:15:00.000+12:00",
+      "endTimeInGmt": "2019-08-09T12:15:00.000Z",
+      "stops": 3,
+      "via": [
+        { "code": "CPH", "name": "Kastrup", "haltDuration": "01:10:00" },
+        { "code": "SIN", "name": "Singapore Changi", "haltDuration": "00:50:00" },
+        { "code": "SYD", "name": "Kingsford Smith", "haltDuration": "02:20:00" }
+      ],
+      "segments": [
+        {
+          "id": 11,
+          "arrivalTerminal": "3",
+          "arrivalDateTimeInLocal": "2019-08-08T11:10:00.000+02:00",
+          "arrivalDateTimeInGmt": "2019-08-08T09:10:00.000Z",
+          "departureTerminal": "5",
+          "departureDateTimeInLocal": "2019-08-08T09:55:00.000+02:00",
+          "departureDateTimeInGmt": "2019-08-08T07:55:00.000Z",
+          "departureAirport": { "code": "ARN", "name": "Arlanda" },
+          "arrivalAirport": { "code": "CPH", "name": "Kastrup" },
+          "departureCity": { "code": "STO", "name": "Stockholm" },
+          "arrivalCity": { "code": "CPH", "name": "Copenhagen" },
+          "airCraft": { "code": "32A", "name": "Airbus A320 (sharklets)" },
+          "flightNumber": "1419",
+          "duration": "01:15:00",
+          "marketingCarrier": { "code": "SK", "name": "SCANDINAVIAN AIRLINES" },
+          "operatingCarrier": { "code": "SK", "name": "SCANDINAVIAN AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 12,
+          "arrivalTerminal": "0",
+          "arrivalDateTimeInLocal": "2019-08-09T06:20:00.000+08:00",
+          "arrivalDateTimeInGmt": "2019-08-08T22:20:00.000Z",
+          "departureTerminal": "2",
+          "departureDateTimeInLocal": "2019-08-08T12:20:00.000+02:00",
+          "departureDateTimeInGmt": "2019-08-08T10:20:00.000Z",
+          "departureAirport": { "code": "CPH", "name": "Kastrup", "haltDuration": "01:10:00" },
+          "arrivalAirport": { "code": "SIN", "name": "Singapore Changi" },
+          "departureCity": { "code": "CPH", "name": "Copenhagen" },
+          "arrivalCity": { "code": "SIN", "name": "Singapore" },
+          "airCraft": { "code": "77W", "name": "Boeing 777-300ER" },
+          "flightNumber": "351",
+          "duration": "12:00:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 13,
+          "arrivalTerminal": "1",
+          "arrivalDateTimeInLocal": "2019-08-09T16:50:00.000+10:00",
+          "arrivalDateTimeInGmt": "2019-08-09T06:50:00.000Z",
+          "departureTerminal": "3",
+          "departureDateTimeInLocal": "2019-08-09T07:10:00.000+08:00",
+          "departureDateTimeInGmt": "2019-08-08T23:10:00.000Z",
+          "departureAirport": { "code": "SIN", "name": "Singapore Changi", "haltDuration": "00:50:00" },
+          "arrivalAirport": { "code": "SYD", "name": "Kingsford Smith" },
+          "departureCity": { "code": "SIN", "name": "Singapore" },
+          "arrivalCity": { "code": "SYD", "name": "Sydney" },
+          "airCraft": { "code": "77W", "name": "Boeing 777-300ER" },
+          "flightNumber": "241",
+          "duration": "07:40:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 14,
+          "arrivalTerminal": "I",
+          "arrivalDateTimeInLocal": "2019-08-10T00:15:00.000+12:00",
+          "arrivalDateTimeInGmt": "2019-08-09T12:15:00.000Z",
+          "departureTerminal": "1",
+          "departureDateTimeInLocal": "2019-08-09T19:10:00.000+10:00",
+          "departureDateTimeInGmt": "2019-08-09T09:10:00.000Z",
+          "departureAirport": { "code": "SYD", "name": "Kingsford Smith", "haltDuration": "02:20:00" },
+          "arrivalAirport": { "code": "AKL", "name": "Auckland" },
+          "departureCity": { "code": "SYD", "name": "Sydney" },
+          "arrivalCity": { "code": "AKL", "name": "Auckland" },
+          "airCraft": { "code": "772", "name": "Boeing 777-200" },
+          "flightNumber": "108",
+          "duration": "03:05:00",
+          "marketingCarrier": { "code": "NZ", "name": "AIR NEW ZEALAND" },
+          "operatingCarrier": { "code": "NZ", "name": "AIR NEW ZEALAND" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        }
+      ],
+      "cabins": {
+        "ECONOMY": {
+          "ECONOMY": {
+            "products": {
+              "O_1": {
+                "productName": "ECONOMY",
+                "productCode": "ECONOMY",
+                "lowestFare": true,
+                "recommendations": [1],
+                "price": {
+                  "currency": "SEK",
+                  "basePrice": 0,
+                  "totalTax": 0,
+                  "totalPrice": 0,
+                  "points": 72000,
+                  "credits": 0,
+                  "pricePerPassengerType": [
+                    {
+                      "id": 1,
+                      "type": "ADT",
+                      "numberCount": 1,
+                      "price": {
+                        "currency": "SEK",
+                        "basePrice": 0,
+                        "totalTax": 0,
+                        "totalPrice": 0,
+                        "points": 72000,
+                        "credits": 0
+                      }
+                    }
+                  ]
+                },
+                "fares": [
+                  { "segmentId": "11", "bookingClass": "X", "avlSeats": 9, "cabinName": "SASGO" },
+                  { "segmentId": "12", "bookingClass": "X", "avlSeats": 1, "cabinName": "ECONOMY" },
+                  { "segmentId": "13", "bookingClass": "X", "avlSeats": 1, "cabinName": "ECONOMY" },
+                  { "segmentId": "14", "bookingClass": "X", "avlSeats": 4, "cabinName": "ECONOMY" }
+                ],
+                "fareKey": "XXXX",
+                "sasRecommended": false
+              }
+            }
+          }
+        }
+      },
+      "lowestFares": { "ECONOMY": { "product": "ECONOMY", "productId": "O_1", "avlSeats": 4, "points": 72000 } }
+    },
+    "F4": {
+      "id": 4,
+      "origin": { "code": "ARN", "name": "Arlanda" },
+      "destination": { "code": "AKL", "name": "Auckland" },
+      "originCity": { "code": "STO", "name": "Stockholm" },
+      "destinationCity": { "code": "AKL", "name": "Auckland" },
+      "connectionDuration": "29:05:00",
+      "startTimeInLocal": "2019-08-08T09:10:00.000+02:00",
+      "startTimeInGmt": "2019-08-08T07:10:00.000Z",
+      "endTimeInLocal": "2019-08-10T00:15:00.000+12:00",
+      "endTimeInGmt": "2019-08-09T12:15:00.000Z",
+      "stops": 3,
+      "via": [
+        { "code": "CPH", "name": "Kastrup", "haltDuration": "02:00:00" },
+        { "code": "SIN", "name": "Singapore Changi", "haltDuration": "00:50:00" },
+        { "code": "SYD", "name": "Kingsford Smith", "haltDuration": "02:20:00" }
+      ],
+      "segments": [
+        {
+          "id": 11,
+          "arrivalTerminal": "3",
+          "arrivalDateTimeInLocal": "2019-08-08T10:20:00.000+02:00",
+          "arrivalDateTimeInGmt": "2019-08-08T08:20:00.000Z",
+          "departureTerminal": "5",
+          "departureDateTimeInLocal": "2019-08-08T09:10:00.000+02:00",
+          "departureDateTimeInGmt": "2019-08-08T07:10:00.000Z",
+          "departureAirport": { "code": "ARN", "name": "Arlanda" },
+          "arrivalAirport": { "code": "CPH", "name": "Kastrup" },
+          "departureCity": { "code": "STO", "name": "Stockholm" },
+          "arrivalCity": { "code": "CPH", "name": "Copenhagen" },
+          "airCraft": { "code": "32A", "name": "Airbus A320 (sharklets)" },
+          "flightNumber": "403",
+          "duration": "01:10:00",
+          "marketingCarrier": { "code": "SK", "name": "SCANDINAVIAN AIRLINES" },
+          "operatingCarrier": { "code": "SK", "name": "SCANDINAVIAN AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 12,
+          "arrivalTerminal": "0",
+          "arrivalDateTimeInLocal": "2019-08-09T06:20:00.000+08:00",
+          "arrivalDateTimeInGmt": "2019-08-08T22:20:00.000Z",
+          "departureTerminal": "2",
+          "departureDateTimeInLocal": "2019-08-08T12:20:00.000+02:00",
+          "departureDateTimeInGmt": "2019-08-08T10:20:00.000Z",
+          "departureAirport": { "code": "CPH", "name": "Kastrup", "haltDuration": "02:00:00" },
+          "arrivalAirport": { "code": "SIN", "name": "Singapore Changi" },
+          "departureCity": { "code": "CPH", "name": "Copenhagen" },
+          "arrivalCity": { "code": "SIN", "name": "Singapore" },
+          "airCraft": { "code": "77W", "name": "Boeing 777-300ER" },
+          "flightNumber": "351",
+          "duration": "12:00:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 13,
+          "arrivalTerminal": "1",
+          "arrivalDateTimeInLocal": "2019-08-09T16:50:00.000+10:00",
+          "arrivalDateTimeInGmt": "2019-08-09T06:50:00.000Z",
+          "departureTerminal": "3",
+          "departureDateTimeInLocal": "2019-08-09T07:10:00.000+08:00",
+          "departureDateTimeInGmt": "2019-08-08T23:10:00.000Z",
+          "departureAirport": { "code": "SIN", "name": "Singapore Changi", "haltDuration": "00:50:00" },
+          "arrivalAirport": { "code": "SYD", "name": "Kingsford Smith" },
+          "departureCity": { "code": "SIN", "name": "Singapore" },
+          "arrivalCity": { "code": "SYD", "name": "Sydney" },
+          "airCraft": { "code": "77W", "name": "Boeing 777-300ER" },
+          "flightNumber": "241",
+          "duration": "07:40:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 14,
+          "arrivalTerminal": "I",
+          "arrivalDateTimeInLocal": "2019-08-10T00:15:00.000+12:00",
+          "arrivalDateTimeInGmt": "2019-08-09T12:15:00.000Z",
+          "departureTerminal": "1",
+          "departureDateTimeInLocal": "2019-08-09T19:10:00.000+10:00",
+          "departureDateTimeInGmt": "2019-08-09T09:10:00.000Z",
+          "departureAirport": { "code": "SYD", "name": "Kingsford Smith", "haltDuration": "02:20:00" },
+          "arrivalAirport": { "code": "AKL", "name": "Auckland" },
+          "departureCity": { "code": "SYD", "name": "Sydney" },
+          "arrivalCity": { "code": "AKL", "name": "Auckland" },
+          "airCraft": { "code": "772", "name": "Boeing 777-200" },
+          "flightNumber": "108",
+          "duration": "03:05:00",
+          "marketingCarrier": { "code": "NZ", "name": "AIR NEW ZEALAND" },
+          "operatingCarrier": { "code": "NZ", "name": "AIR NEW ZEALAND" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        }
+      ],
+      "cabins": {
+        "ECONOMY": {
+          "ECONOMY": {
+            "products": {
+              "O_5": {
+                "productName": "ECONOMY",
+                "productCode": "ECONOMY",
+                "lowestFare": true,
+                "recommendations": [5],
+                "price": {
+                  "currency": "SEK",
+                  "basePrice": 0,
+                  "totalTax": 0,
+                  "totalPrice": 0,
+                  "points": 72000,
+                  "credits": 0,
+                  "pricePerPassengerType": [
+                    {
+                      "id": 1,
+                      "type": "ADT",
+                      "numberCount": 1,
+                      "price": {
+                        "currency": "SEK",
+                        "basePrice": 0,
+                        "totalTax": 0,
+                        "totalPrice": 0,
+                        "points": 72000,
+                        "credits": 0
+                      }
+                    }
+                  ]
+                },
+                "fares": [
+                  { "segmentId": "11", "bookingClass": "X", "avlSeats": 9, "cabinName": "SASGO" },
+                  { "segmentId": "12", "bookingClass": "X", "avlSeats": 1, "cabinName": "ECONOMY" },
+                  { "segmentId": "13", "bookingClass": "X", "avlSeats": 1, "cabinName": "ECONOMY" },
+                  { "segmentId": "14", "bookingClass": "X", "avlSeats": 4, "cabinName": "ECONOMY" }
+                ],
+                "fareKey": "XXXX",
+                "sasRecommended": false
+              }
+            }
+          }
+        }
+      },
+      "lowestFares": { "ECONOMY": { "product": "ECONOMY", "productId": "O_5", "avlSeats": 4, "points": 72000 } }
+    },
+    "F5": {
+      "id": 5,
+      "origin": { "code": "ARN", "name": "Arlanda" },
+      "destination": { "code": "AKL", "name": "Auckland" },
+      "originCity": { "code": "STO", "name": "Stockholm" },
+      "destinationCity": { "code": "AKL", "name": "Auckland" },
+      "connectionDuration": "32:10:00",
+      "startTimeInLocal": "2019-08-08T06:05:00.000+02:00",
+      "startTimeInGmt": "2019-08-08T04:05:00.000Z",
+      "endTimeInLocal": "2019-08-10T00:15:00.000+12:00",
+      "endTimeInGmt": "2019-08-09T12:15:00.000Z",
+      "stops": 3,
+      "via": [
+        { "code": "CPH", "name": "Kastrup", "haltDuration": "05:00:00" },
+        { "code": "SIN", "name": "Singapore Changi", "haltDuration": "00:50:00" },
+        { "code": "SYD", "name": "Kingsford Smith", "haltDuration": "02:20:00" }
+      ],
+      "segments": [
+        {
+          "id": 11,
+          "arrivalTerminal": "3",
+          "arrivalDateTimeInLocal": "2019-08-08T07:20:00.000+02:00",
+          "arrivalDateTimeInGmt": "2019-08-08T05:20:00.000Z",
+          "departureTerminal": "5",
+          "departureDateTimeInLocal": "2019-08-08T06:05:00.000+02:00",
+          "departureDateTimeInGmt": "2019-08-08T04:05:00.000Z",
+          "departureAirport": { "code": "ARN", "name": "Arlanda" },
+          "arrivalAirport": { "code": "CPH", "name": "Kastrup" },
+          "departureCity": { "code": "STO", "name": "Stockholm" },
+          "arrivalCity": { "code": "CPH", "name": "Copenhagen" },
+          "airCraft": { "code": "32A", "name": "Airbus A320 (sharklets)" },
+          "flightNumber": "1415",
+          "duration": "01:15:00",
+          "marketingCarrier": { "code": "SK", "name": "SCANDINAVIAN AIRLINES" },
+          "operatingCarrier": { "code": "SK", "name": "SCANDINAVIAN AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 12,
+          "arrivalTerminal": "0",
+          "arrivalDateTimeInLocal": "2019-08-09T06:20:00.000+08:00",
+          "arrivalDateTimeInGmt": "2019-08-08T22:20:00.000Z",
+          "departureTerminal": "2",
+          "departureDateTimeInLocal": "2019-08-08T12:20:00.000+02:00",
+          "departureDateTimeInGmt": "2019-08-08T10:20:00.000Z",
+          "departureAirport": { "code": "CPH", "name": "Kastrup", "haltDuration": "05:00:00" },
+          "arrivalAirport": { "code": "SIN", "name": "Singapore Changi" },
+          "departureCity": { "code": "CPH", "name": "Copenhagen" },
+          "arrivalCity": { "code": "SIN", "name": "Singapore" },
+          "airCraft": { "code": "77W", "name": "Boeing 777-300ER" },
+          "flightNumber": "351",
+          "duration": "12:00:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 13,
+          "arrivalTerminal": "1",
+          "arrivalDateTimeInLocal": "2019-08-09T16:50:00.000+10:00",
+          "arrivalDateTimeInGmt": "2019-08-09T06:50:00.000Z",
+          "departureTerminal": "3",
+          "departureDateTimeInLocal": "2019-08-09T07:10:00.000+08:00",
+          "departureDateTimeInGmt": "2019-08-08T23:10:00.000Z",
+          "departureAirport": { "code": "SIN", "name": "Singapore Changi", "haltDuration": "00:50:00" },
+          "arrivalAirport": { "code": "SYD", "name": "Kingsford Smith" },
+          "departureCity": { "code": "SIN", "name": "Singapore" },
+          "arrivalCity": { "code": "SYD", "name": "Sydney" },
+          "airCraft": { "code": "77W", "name": "Boeing 777-300ER" },
+          "flightNumber": "241",
+          "duration": "07:40:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 14,
+          "arrivalTerminal": "I",
+          "arrivalDateTimeInLocal": "2019-08-10T00:15:00.000+12:00",
+          "arrivalDateTimeInGmt": "2019-08-09T12:15:00.000Z",
+          "departureTerminal": "1",
+          "departureDateTimeInLocal": "2019-08-09T19:10:00.000+10:00",
+          "departureDateTimeInGmt": "2019-08-09T09:10:00.000Z",
+          "departureAirport": { "code": "SYD", "name": "Kingsford Smith", "haltDuration": "02:20:00" },
+          "arrivalAirport": { "code": "AKL", "name": "Auckland" },
+          "departureCity": { "code": "SYD", "name": "Sydney" },
+          "arrivalCity": { "code": "AKL", "name": "Auckland" },
+          "airCraft": { "code": "772", "name": "Boeing 777-200" },
+          "flightNumber": "108",
+          "duration": "03:05:00",
+          "marketingCarrier": { "code": "NZ", "name": "AIR NEW ZEALAND" },
+          "operatingCarrier": { "code": "NZ", "name": "AIR NEW ZEALAND" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        }
+      ],
+      "cabins": {
+        "ECONOMY": {
+          "ECONOMY": {
+            "products": {
+              "O_9": {
+                "productName": "ECONOMY",
+                "productCode": "ECONOMY",
+                "lowestFare": true,
+                "recommendations": [9],
+                "price": {
+                  "currency": "SEK",
+                  "basePrice": 0,
+                  "totalTax": 0,
+                  "totalPrice": 0,
+                  "points": 72000,
+                  "credits": 0,
+                  "pricePerPassengerType": [
+                    {
+                      "id": 1,
+                      "type": "ADT",
+                      "numberCount": 1,
+                      "price": {
+                        "currency": "SEK",
+                        "basePrice": 0,
+                        "totalTax": 0,
+                        "totalPrice": 0,
+                        "points": 72000,
+                        "credits": 0
+                      }
+                    }
+                  ]
+                },
+                "fares": [
+                  { "segmentId": "11", "bookingClass": "X", "avlSeats": 9, "cabinName": "SASGO" },
+                  { "segmentId": "12", "bookingClass": "X", "avlSeats": 1, "cabinName": "ECONOMY" },
+                  { "segmentId": "13", "bookingClass": "X", "avlSeats": 1, "cabinName": "ECONOMY" },
+                  { "segmentId": "14", "bookingClass": "X", "avlSeats": 4, "cabinName": "ECONOMY" }
+                ],
+                "fareKey": "XXXX",
+                "sasRecommended": false
+              }
+            }
+          }
+        }
+      },
+      "lowestFares": { "ECONOMY": { "product": "ECONOMY", "productId": "O_9", "avlSeats": 4, "points": 72000 } }
+    },
+    "F6": {
+      "id": 6,
+      "origin": { "code": "ARN", "name": "Arlanda" },
+      "destination": { "code": "AKL", "name": "Auckland" },
+      "originCity": { "code": "STO", "name": "Stockholm" },
+      "destinationCity": { "code": "AKL", "name": "Auckland" },
+      "connectionDuration": "33:55:00",
+      "startTimeInLocal": "2019-08-08T16:25:00.000+02:00",
+      "startTimeInGmt": "2019-08-08T14:25:00.000Z",
+      "endTimeInLocal": "2019-08-10T12:20:00.000+12:00",
+      "endTimeInGmt": "2019-08-10T00:20:00.000Z",
+      "stops": 3,
+      "via": [
+        { "code": "FRA", "name": "Frankfurt", "haltDuration": "01:30:00" },
+        { "code": "LHR", "name": "London Heathrow", "haltDuration": "01:25:00" },
+        { "code": "SIN", "name": "Singapore Changi", "haltDuration": "04:35:00" }
+      ],
+      "segments": [
+        {
+          "id": 11,
+          "arrivalTerminal": "1",
+          "arrivalDateTimeInLocal": "2019-08-08T18:30:00.000+02:00",
+          "arrivalDateTimeInGmt": "2019-08-08T16:30:00.000Z",
+          "departureTerminal": "5",
+          "departureDateTimeInLocal": "2019-08-08T16:25:00.000+02:00",
+          "departureDateTimeInGmt": "2019-08-08T14:25:00.000Z",
+          "departureAirport": { "code": "ARN", "name": "Arlanda" },
+          "arrivalAirport": { "code": "FRA", "name": "Frankfurt" },
+          "departureCity": { "code": "STO", "name": "Stockholm" },
+          "arrivalCity": { "code": "FRA", "name": "Frankfurt" },
+          "airCraft": { "code": "32N" },
+          "flightNumber": "807",
+          "duration": "02:05:00",
+          "marketingCarrier": { "code": "LH", "name": "LUFTHANSA" },
+          "operatingCarrier": { "code": "LH", "name": "LUFTHANSA" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 12,
+          "arrivalTerminal": "2",
+          "arrivalDateTimeInLocal": "2019-08-08T20:40:00.000+01:00",
+          "arrivalDateTimeInGmt": "2019-08-08T19:40:00.000Z",
+          "departureTerminal": "1",
+          "departureDateTimeInLocal": "2019-08-08T20:00:00.000+02:00",
+          "departureDateTimeInGmt": "2019-08-08T18:00:00.000Z",
+          "departureAirport": { "code": "FRA", "name": "Frankfurt", "haltDuration": "01:30:00" },
+          "arrivalAirport": { "code": "LHR", "name": "London Heathrow" },
+          "departureCity": { "code": "FRA", "name": "Frankfurt" },
+          "arrivalCity": { "code": "LON", "name": "London" },
+          "airCraft": { "code": "32N" },
+          "flightNumber": "920",
+          "duration": "01:40:00",
+          "marketingCarrier": { "code": "LH", "name": "LUFTHANSA" },
+          "operatingCarrier": { "code": "LH", "name": "LUFTHANSA" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 13,
+          "arrivalTerminal": "0",
+          "arrivalDateTimeInLocal": "2019-08-09T18:10:00.000+08:00",
+          "arrivalDateTimeInGmt": "2019-08-09T10:10:00.000Z",
+          "departureTerminal": "2",
+          "departureDateTimeInLocal": "2019-08-08T22:05:00.000+01:00",
+          "departureDateTimeInGmt": "2019-08-08T21:05:00.000Z",
+          "departureAirport": { "code": "LHR", "name": "London Heathrow", "haltDuration": "01:25:00" },
+          "arrivalAirport": { "code": "SIN", "name": "Singapore Changi" },
+          "departureCity": { "code": "LON", "name": "London" },
+          "arrivalCity": { "code": "SIN", "name": "Singapore" },
+          "airCraft": { "code": "388", "name": "Airbus A380-800" },
+          "flightNumber": "321",
+          "duration": "13:05:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 14,
+          "arrivalTerminal": "I",
+          "arrivalDateTimeInLocal": "2019-08-10T12:20:00.000+12:00",
+          "arrivalDateTimeInGmt": "2019-08-10T00:20:00.000Z",
+          "departureTerminal": "3",
+          "departureDateTimeInLocal": "2019-08-09T22:45:00.000+08:00",
+          "departureDateTimeInGmt": "2019-08-09T14:45:00.000Z",
+          "departureAirport": { "code": "SIN", "name": "Singapore Changi", "haltDuration": "04:35:00" },
+          "arrivalAirport": { "code": "AKL", "name": "Auckland" },
+          "departureCity": { "code": "SIN", "name": "Singapore" },
+          "arrivalCity": { "code": "AKL", "name": "Auckland" },
+          "airCraft": { "code": "77W", "name": "Boeing 777-300ER" },
+          "flightNumber": "285",
+          "duration": "09:35:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        }
+      ],
+      "cabins": {
+        "BUSINESS": {
+          "BUSINESS": {
+            "products": {
+              "O_5": {
+                "productName": "BUSINESS",
+                "productCode": "BUSINESS",
+                "lowestFare": true,
+                "recommendations": [5],
+                "price": {
+                  "currency": "SEK",
+                  "basePrice": 0,
+                  "totalTax": 0,
+                  "totalPrice": 0,
+                  "points": 129000,
+                  "credits": 0,
+                  "pricePerPassengerType": [
+                    {
+                      "id": 1,
+                      "type": "ADT",
+                      "numberCount": 1,
+                      "price": {
+                        "currency": "SEK",
+                        "basePrice": 0,
+                        "totalTax": 0,
+                        "totalPrice": 0,
+                        "points": 129000,
+                        "credits": 0
+                      }
+                    }
+                  ]
+                },
+                "fares": [
+                  { "segmentId": "11", "bookingClass": "I", "avlSeats": 7, "cabinName": "BUSINESS" },
+                  { "segmentId": "12", "bookingClass": "I", "avlSeats": 7, "cabinName": "BUSINESS" },
+                  { "segmentId": "13", "bookingClass": "I", "avlSeats": 2, "cabinName": "BUSINESS" },
+                  { "segmentId": "14", "bookingClass": "I", "avlSeats": 2, "cabinName": "BUSINESS" }
+                ],
+                "fareKey": "IIII",
+                "sasRecommended": false
+              }
+            }
+          }
+        }
+      },
+      "lowestFares": { "BUSINESS": { "product": "BUSINESS", "productId": "O_5", "avlSeats": 2, "points": 129000 } }
+    },
+    "F7": {
+      "id": 7,
+      "origin": { "code": "ARN", "name": "Arlanda" },
+      "destination": { "code": "AKL", "name": "Auckland" },
+      "originCity": { "code": "STO", "name": "Stockholm" },
+      "destinationCity": { "code": "AKL", "name": "Auckland" },
+      "connectionDuration": "35:50:00",
+      "startTimeInLocal": "2019-08-08T14:30:00.000+02:00",
+      "startTimeInGmt": "2019-08-08T12:30:00.000Z",
+      "endTimeInLocal": "2019-08-10T12:20:00.000+12:00",
+      "endTimeInGmt": "2019-08-10T00:20:00.000Z",
+      "stops": 2,
+      "via": [
+        { "code": "BKK", "name": "Suvarnabhumi ", "haltDuration": "06:25:00" },
+        { "code": "SIN", "name": "Singapore Changi", "haltDuration": "07:05:00" }
+      ],
+      "segments": [
+        {
+          "id": 11,
+          "arrivalDateTimeInLocal": "2019-08-09T05:50:00.000+07:00",
+          "arrivalDateTimeInGmt": "2019-08-08T22:50:00.000Z",
+          "departureTerminal": "5",
+          "departureDateTimeInLocal": "2019-08-08T14:30:00.000+02:00",
+          "departureDateTimeInGmt": "2019-08-08T12:30:00.000Z",
+          "departureAirport": { "code": "ARN", "name": "Arlanda" },
+          "arrivalAirport": { "code": "BKK", "name": "Suvarnabhumi " },
+          "departureCity": { "code": "STO", "name": "Stockholm" },
+          "arrivalCity": { "code": "BKK", "name": "Bangkok" },
+          "airCraft": { "code": "773", "name": "Boeing 777-300" },
+          "flightNumber": "961",
+          "duration": "10:20:00",
+          "marketingCarrier": { "code": "TG", "name": "THAI AIRWAYS INTERNATIONAL" },
+          "operatingCarrier": { "code": "TG", "name": "THAI AIRWAYS INTERNATIONAL" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 12,
+          "arrivalTerminal": "0",
+          "arrivalDateTimeInLocal": "2019-08-09T15:40:00.000+08:00",
+          "arrivalDateTimeInGmt": "2019-08-09T07:40:00.000Z",
+          "departureDateTimeInLocal": "2019-08-09T12:15:00.000+07:00",
+          "departureDateTimeInGmt": "2019-08-09T05:15:00.000Z",
+          "departureAirport": { "code": "BKK", "name": "Suvarnabhumi ", "haltDuration": "06:25:00" },
+          "arrivalAirport": { "code": "SIN", "name": "Singapore Changi" },
+          "departureCity": { "code": "BKK", "name": "Bangkok" },
+          "arrivalCity": { "code": "SIN", "name": "Singapore" },
+          "airCraft": { "code": "772", "name": "Boeing 777-200" },
+          "flightNumber": "975",
+          "duration": "02:25:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 13,
+          "arrivalTerminal": "I",
+          "arrivalDateTimeInLocal": "2019-08-10T12:20:00.000+12:00",
+          "arrivalDateTimeInGmt": "2019-08-10T00:20:00.000Z",
+          "departureTerminal": "3",
+          "departureDateTimeInLocal": "2019-08-09T22:45:00.000+08:00",
+          "departureDateTimeInGmt": "2019-08-09T14:45:00.000Z",
+          "departureAirport": { "code": "SIN", "name": "Singapore Changi", "haltDuration": "07:05:00" },
+          "arrivalAirport": { "code": "AKL", "name": "Auckland" },
+          "departureCity": { "code": "SIN", "name": "Singapore" },
+          "arrivalCity": { "code": "AKL", "name": "Auckland" },
+          "airCraft": { "code": "77W", "name": "Boeing 777-300ER" },
+          "flightNumber": "285",
+          "duration": "09:35:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        }
+      ],
+      "cabins": {
+        "ECONOMY": {
+          "ECONOMY": {
+            "products": {
+              "O_5": {
+                "productName": "ECONOMY",
+                "productCode": "ECONOMY",
+                "lowestFare": true,
+                "recommendations": [5],
+                "price": {
+                  "currency": "SEK",
+                  "basePrice": 0,
+                  "totalTax": 0,
+                  "totalPrice": 0,
+                  "points": 72000,
+                  "credits": 0,
+                  "pricePerPassengerType": [
+                    {
+                      "id": 1,
+                      "type": "ADT",
+                      "numberCount": 1,
+                      "price": {
+                        "currency": "SEK",
+                        "basePrice": 0,
+                        "totalTax": 0,
+                        "totalPrice": 0,
+                        "points": 72000,
+                        "credits": 0
+                      }
+                    }
+                  ]
+                },
+                "fares": [
+                  { "segmentId": "11", "bookingClass": "X", "avlSeats": 9, "cabinName": "ECONOMY" },
+                  { "segmentId": "12", "bookingClass": "X", "avlSeats": 2, "cabinName": "ECONOMY" },
+                  { "segmentId": "13", "bookingClass": "X", "avlSeats": 2, "cabinName": "ECONOMY" }
+                ],
+                "fareKey": "XXX",
+                "sasRecommended": false
+              }
+            }
+          }
+        }
+      },
+      "lowestFares": { "ECONOMY": { "product": "ECONOMY", "productId": "O_5", "avlSeats": 2, "points": 72000 } }
+    },
+    "F8": {
+      "id": 8,
+      "origin": { "code": "ARN", "name": "Arlanda" },
+      "destination": { "code": "AKL", "name": "Auckland" },
+      "originCity": { "code": "STO", "name": "Stockholm" },
+      "destinationCity": { "code": "AKL", "name": "Auckland" },
+      "connectionDuration": "35:50:00",
+      "startTimeInLocal": "2019-08-08T14:30:00.000+02:00",
+      "startTimeInGmt": "2019-08-08T12:30:00.000Z",
+      "endTimeInLocal": "2019-08-10T12:20:00.000+12:00",
+      "endTimeInGmt": "2019-08-10T00:20:00.000Z",
+      "stops": 2,
+      "via": [
+        { "code": "BKK", "name": "Suvarnabhumi ", "haltDuration": "08:00:00" },
+        { "code": "SIN", "name": "Singapore Changi", "haltDuration": "05:40:00" }
+      ],
+      "segments": [
+        {
+          "id": 11,
+          "arrivalDateTimeInLocal": "2019-08-09T05:50:00.000+07:00",
+          "arrivalDateTimeInGmt": "2019-08-08T22:50:00.000Z",
+          "departureTerminal": "5",
+          "departureDateTimeInLocal": "2019-08-08T14:30:00.000+02:00",
+          "departureDateTimeInGmt": "2019-08-08T12:30:00.000Z",
+          "departureAirport": { "code": "ARN", "name": "Arlanda" },
+          "arrivalAirport": { "code": "BKK", "name": "Suvarnabhumi " },
+          "departureCity": { "code": "STO", "name": "Stockholm" },
+          "arrivalCity": { "code": "BKK", "name": "Bangkok" },
+          "airCraft": { "code": "773", "name": "Boeing 777-300" },
+          "flightNumber": "961",
+          "duration": "10:20:00",
+          "marketingCarrier": { "code": "TG", "name": "THAI AIRWAYS INTERNATIONAL" },
+          "operatingCarrier": { "code": "TG", "name": "THAI AIRWAYS INTERNATIONAL" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 12,
+          "arrivalTerminal": "1",
+          "arrivalDateTimeInLocal": "2019-08-09T17:05:00.000+08:00",
+          "arrivalDateTimeInGmt": "2019-08-09T09:05:00.000Z",
+          "departureDateTimeInLocal": "2019-08-09T13:50:00.000+07:00",
+          "departureDateTimeInGmt": "2019-08-09T06:50:00.000Z",
+          "departureAirport": { "code": "BKK", "name": "Suvarnabhumi ", "haltDuration": "08:00:00" },
+          "arrivalAirport": { "code": "SIN", "name": "Singapore Changi" },
+          "departureCity": { "code": "BKK", "name": "Bangkok" },
+          "arrivalCity": { "code": "SIN", "name": "Singapore" },
+          "airCraft": { "code": "777", "name": "Boeing 777" },
+          "flightNumber": "407",
+          "duration": "02:15:00",
+          "marketingCarrier": { "code": "TG", "name": "THAI AIRWAYS INTERNATIONAL" },
+          "operatingCarrier": { "code": "TG", "name": "THAI AIRWAYS INTERNATIONAL" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        },
+        {
+          "id": 13,
+          "arrivalTerminal": "I",
+          "arrivalDateTimeInLocal": "2019-08-10T12:20:00.000+12:00",
+          "arrivalDateTimeInGmt": "2019-08-10T00:20:00.000Z",
+          "departureTerminal": "3",
+          "departureDateTimeInLocal": "2019-08-09T22:45:00.000+08:00",
+          "departureDateTimeInGmt": "2019-08-09T14:45:00.000Z",
+          "departureAirport": { "code": "SIN", "name": "Singapore Changi", "haltDuration": "05:40:00" },
+          "arrivalAirport": { "code": "AKL", "name": "Auckland" },
+          "departureCity": { "code": "SIN", "name": "Singapore" },
+          "arrivalCity": { "code": "AKL", "name": "Auckland" },
+          "airCraft": { "code": "77W", "name": "Boeing 777-300ER" },
+          "flightNumber": "285",
+          "duration": "09:35:00",
+          "marketingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "operatingCarrier": { "code": "SQ", "name": "SINGAPORE AIRLINES" },
+          "onTimePerformance": 0,
+          "miles": 0,
+          "numberOfStops": 0
+        }
+      ],
+      "cabins": {
+        "ECONOMY": {
+          "ECONOMY": {
+            "products": {
+              "O_8": {
+                "productName": "ECONOMY",
+                "productCode": "ECONOMY",
+                "lowestFare": true,
+                "recommendations": [8],
+                "price": {
+                  "currency": "SEK",
+                  "basePrice": 0,
+                  "totalTax": 0,
+                  "totalPrice": 0,
+                  "points": 72000,
+                  "credits": 0,
+                  "pricePerPassengerType": [
+                    {
+                      "id": 1,
+                      "type": "ADT",
+                      "numberCount": 1,
+                      "price": {
+                        "currency": "SEK",
+                        "basePrice": 0,
+                        "totalTax": 0,
+                        "totalPrice": 0,
+                        "points": 72000,
+                        "credits": 0
+                      }
+                    }
+                  ]
+                },
+                "fares": [
+                  { "segmentId": "11", "bookingClass": "X", "avlSeats": 9, "cabinName": "ECONOMY" },
+                  { "segmentId": "12", "bookingClass": "X", "avlSeats": 9, "cabinName": "ECONOMY" },
+                  { "segmentId": "13", "bookingClass": "X", "avlSeats": 2, "cabinName": "ECONOMY" }
+                ],
+                "fareKey": "XXX",
+                "sasRecommended": false
+              }
+            }
+          }
+        }
+      },
+      "lowestFares": { "ECONOMY": { "product": "ECONOMY", "productId": "O_8", "avlSeats": 2, "points": 72000 } }
+    }
+  },
+  "productInfo": { "ECONOMY": { "1": "ECONOMY" }, "BUSINESS": { "1": "BUSINESS" } },
+  "tabsInfo": {
+    "outboundInfo": [
+      { "date": "2019-08-07", "price": "NA", "points": 0 },
+      { "date": "2019-08-08", "points": 72000 },
+      { "date": "2019-08-09", "price": "NA", "points": 0 }
+    ]
+  },
+  "links": [
+    { "rel": "GetEBMSPoints", "href": "/offers/flightproducts/getAccrualPoints" },
+    { "rel": "FareReview", "href": "/offers/flightproducts/getFare" },
+    { "rel": "InitiateCheckout", "href": "/checkout/initiate" }
+  ],
+  "offerId": "U1RBUkFSTkFLTDIwMTkwODA4MDAwMDEwMDAxNTUwMjIyMTAzMjAxX08=",
+  "isOutboundIntercontinental": true
+}
