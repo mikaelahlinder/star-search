@@ -10,7 +10,7 @@ app.use(
   '/graphql',
   graphql({
     schema: schema,
-    graphiql: process.env.ENV === 'dev',
+    graphiql: true,
     context: {
       resolver: process.env.ENV === 'dev' ? () => data : api
     }
