@@ -23,5 +23,8 @@ module.exports = async ({ from, to, date: outDate, pax: adt }) => {
         adt
       }
     })
-    .then(({ outboundFlights = {} }) => Object.values(outboundFlights))
+    .then(res => (res.errors ? Promise.reject(res.errors) : Object.values(res.outboundFlights)))
+    .catch(errors => {
+      throw errors.map(e => e.errorMessage).join('\n')
+    })
 }

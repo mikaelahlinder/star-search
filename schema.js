@@ -121,7 +121,7 @@ const flight = new GraphQLObjectType({
 
 module.exports = new GraphQLSchema({
   query: new GraphQLObjectType({
-    name: 'Query',
+    name: 'Flights',
     fields: {
       flights: {
         type: GraphQLList(flight),

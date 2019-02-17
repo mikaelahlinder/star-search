@@ -11,6 +11,7 @@ app.use(
   graphql({
     schema: schema,
     graphiql: true,
+    formatError: e => e.message,
     context: {
       resolver: process.env.ENV === 'dev' ? () => data : api
     }
